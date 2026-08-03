@@ -5,9 +5,9 @@ export const personalData: PersonalInfo = {
   primaryTitle: "Desarrollador Python | Instructor Tecnológico | Investigador en Ciencias del Comportamiento",
   titles: [
     "Desarrollador Python",
-    "Instructor Tecnológico & MCT",
+    "Instructor Tecnológico",
     "Investigador en Ciencias del Comportamiento",
-    "Especialista en Análisis de Datos & Inferencia Bayesiana"
+    "Análisis de Datos & Inferencia Bayesiana"
   ],
   email: "moisesth55555@gmail.com", // Sustituir por tu correo real, ej: moises.torres@ejemplo.com
   githubUrl: "https://github.com/MoisesTH", // Sustituir por tu GitHub real, ej: https://github.com/moisestorres
