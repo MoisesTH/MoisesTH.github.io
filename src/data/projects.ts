@@ -30,7 +30,7 @@ export const projectsData: ProjectItem[] = [
     image: '/assets/images/project-image.png',
     githubUrl: '#', // Sustituir por tu URL de GitHub
     demoUrl: '#',
-    status: 'Completado',
+    status: 'Investigación Activa',
     featured: true,
     highlights: [
       'Estimación robusta de hiperparámetros poblacionales con muestras reducidas.',
@@ -59,22 +59,36 @@ export const projectsData: ProjectItem[] = [
     ]
   },
   {
-    id: 'proj-ai-apps',
-    title: 'Aplicaciones y Automatización con Inteligencia Artificial',
-    description: 'Ecosistema de proyectos experimentales utilizando LLMs locales y en la nube (Google GenAI, LangChain, LM Studio) para procesamiento de texto y asistentes.',
-    fullDescription: 'Desarrollo de scripts de automatización y prototipos de software asistidos por inteligencia artificial. Explora el uso de Google GenAI SDK, orquestación de prompts con LangChain y ejecución de modelos de lenguaje en entorno local con LM Studio para resúmenes de información, extracción estructurada de datos y herramientas instruccionales.',
-    category: 'Inteligencia Artificial',
-    technologies: ['Python', 'Google GenAI', 'LangChain', 'LM Studio', 'Modelos Locales', 'Automatización'],
-    image: '/assets/images/project-image.png',
-    githubUrl: '#', // Sustituir por repositorio real
-    demoUrl: '#',
-    status: 'En desarrollo',
-    featured: true,
-    highlights: [
-      'Integración del SDK oficial de Google GenAI para generación de contenido estructurado.',
-      'Experimentación con LLMs locales mediante LM Studio para preservar privacidad.',
-      'Cadenas de procesamiento de documentos y análisis semántico de texto.',
-      'Asistentes interaccionables para soporte en el aula y generación de preguntas.'
-    ]
+  id: 'proj-ai-apps',
+  title: 'Generador de Temarios y Automatización con Inteligencia Artificial',
+  description: 'Ecosistema serverless en AWS para la generación automatizada de diseños instruccionales y temarios estructurados mediante LLMs (OpenAI y Amazon Bedrock).',
+  fullDescription: 'Desarrollo de una arquitectura backend serverless robusta encargada de procesar requerimientos pedagógicos y transformarlos en propuestas de cursos cronometradas. Implementa orquestación de prompts avanzados con restricción estricta de salida JSON, gestión de errores de producción, integración con modelos de lenguaje en la nube (GPT-4, Claude 3) y exposición mediante API RESTful con seguridad y CORS.',
+  category: 'Inteligencia Artificial & Cloud',
+  
+  // 1. TECNOLOGÍAS Y HERRAMIENTAS UTILIZADAS
+  technologies: [
+    'Python 3',
+    'AWS Lambda',
+    'Amazon API Gateway',
+    'OpenAI API (GPT-4)',
+    'Amazon Bedrock',
+    'REST API / CORS',
+    'Prompt Engineering',
+    'JSON Schema'
+  ],
+  
+  image: '/assets/images/project-image.png',
+  githubUrl: '#', // Sustituir por tu repositorio
+  demoUrl: '#',
+  status: 'Completado',
+  featured: true,
+
+  // 2. LOGROS TÉCNICOS DESTACADOS (Resalta QUÉ hiciste)
+  highlights: [
+    'Diseño e implementación de arquitectura Serverless (AWS Lambda + API Gateway) con manejo estricto de CORS y respuestas HTTP.',
+    'Construcción de un cliente agnóstico a la IA, permitiendo conmutar dinámicamente entre la API de OpenAI y Amazon Bedrock.',
+    'Ingeniería de Prompts avanzada basada en la Taxonomía de Bloom, forzando respuestas en formato JSON estricto para consumo directo por aplicaciones frontend.',
+    'Manejo robusto de errores, parsing defensivo y logging centralizado para entornos de producción.'
+  ]
   }
 ];
