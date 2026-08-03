@@ -9,9 +9,9 @@ export const personalData: PersonalInfo = {
     "Investigador en Ciencias del Comportamiento",
     "Especialista en Análisis de Datos & Inferencia Bayesiana"
   ],
-  email: "[moisesth55555@gmail.com]", // Sustituir por tu correo real, ej: moises.torres@ejemplo.com
-  githubUrl: "[https://github.com/MoisesTH]", // Sustituir por tu GitHub real, ej: https://github.com/moisestorres
-  linkedinUrl: "[https://www.linkedin.com/in/mois%C3%A9s-torres-hern%C3%A1ndez-922571238/]", // Sustituir por tu LinkedIn real, ej: https://www.linkedin.com/in/moisestorres
+  email: "moisesth55555@gmail.com", // Sustituir por tu correo real, ej: moises.torres@ejemplo.com
+  githubUrl: "https://github.com/MoisesTH", // Sustituir por tu GitHub real, ej: https://github.com/moisestorres
+  linkedinUrl: "https://www.linkedin.com/in/mois%C3%A9s-torres-hern%C3%A1ndez-922571238/", // Sustituir por tu LinkedIn real, ej: https://www.linkedin.com/in/moisestorres
   location: "Ixtapaluca, Estado de México",
   bioSummary: "Licenciado en Psicología por la UNAM con perfil híbrido en tecnología e investigación. Especializado en programación en Python, enseñanza técnica, metodologías ágiles y modelamiento bayesiano jerárquico aplicado a la toma de decisiones.",
   detailedBio: [
